@@ -1,0 +1,34 @@
+{
+  "delete_pocket_activities": {
+    "enabled": true,
+    "max_distance_meters": 35,
+    "max_duration_seconds": 180
+  },
+  "mute_stationary": {
+    "enabled": true,
+    "require_gps": true,
+    "allow_indoor_virtual": true
+  },
+  "commute_rules": {
+    "auto_mute": true,
+    "keywords": [
+      "commute",
+      "work",
+      "office",
+      "morning ride",
+      "evening ride"
+    ],
+    "time_windows": [
+      {
+        "start": "07:00",
+        "end": "09:30"
+      },
+      {
+        "start": "16:00",
+        "end": "18:30"
+      }
+    ],
+    "max_distance_km": 15.0
+  },
+  "ignored_activity_ids": []
+}
