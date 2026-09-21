@@ -32,4 +32,4 @@ python cleaner.py run --rules rules.json
 
 To make it run automatically, register `cleaner.py` in the Windows Task Scheduler to run daily.
 
-<!-- last-checked: 2026-09-20 -->
+<!-- last-checked: 2026-09-21 -->
